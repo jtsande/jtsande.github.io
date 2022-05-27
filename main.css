@@ -158,6 +158,14 @@ img {
         max-width: 900px;
     }
 
+    .meta {
+        font: normal 14px/18px 'Everett', sans-serif;
+        font-weight: 400;
+        padding-bottom: 50px;
+        margin: 20px 0;
+        color: #626262;
+    }
+
     .columns {
         display: flex;
     }
