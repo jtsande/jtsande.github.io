@@ -1,12 +1,12 @@
 html {
     background: #fff;
     -webkit-font-smoothing: antialiased;
-    font-family: Everett, sans-serif;
+    font-family: 'Everett', sans-serif;
 }
 
 body {
     color: #141414;
-    font: normal 18px/24px Everett, sans-serif;
+    font: normal 16px/24px 'Everett', sans-serif;
     padding: 0em;
     margin: 0em;
 }
@@ -29,21 +29,21 @@ footer {
 }
 
 h1 {
-    font: normal 18px/24px Everett, sans-serif;
+    font: normal 16px/24px 'Everett', sans-serif;
     font-weight: 500;
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    font: normal 18px/24px Everett, sans-serif;
+    font: normal 16px/24px 'Everett', sans-serif;
     font-weight: 500;
     margin: 0;
     padding: 0;
 }
 
 h3 {
-    font: normal 18px/24px Everett, sans-serif;
+    font: normal 16px/24px 'Everett', sans-serif;
     color: #626262;
     font-weight: 400;
     margin: 0 0 20px 0;
@@ -51,7 +51,7 @@ h3 {
 }
 
 p {
-    font: normal 18px/24px Everett, sans-serif;
+    font: normal 16px/24px 'Everett', sans-serif;
     margin: 0 0 20px 0;
     padding: 0;
 }
@@ -87,23 +87,21 @@ img {
 }
 
 .intro {
-    font-size: 30px;
-    line-height: 34px;
+    font: normal 30px/38px 'Everett', sans-serif;
     font-weight: 500;
     padding-bottom: 30px;
     margin: 0;
 }
 
 .info {
-    font-size: 18px;
-    line-height: 24px;
+    font: normal 16px/24px 'Everett', sans-serif;
     font-weight: 400;
     margin-left: auto;
     order: 2;
 }
 
 .availability {
-    font: normal 14px/18px Everett, sans-serif;
+    font: normal 14px/18px 'Everett', sans-serif;
     font-weight: 400;
     padding-bottom: 50px;
     margin: 20px 0;
@@ -111,7 +109,6 @@ img {
 }
 
 .small {
-    font-weight: 500;
     color: #141414;
 }
 
@@ -153,8 +150,8 @@ img {
     }
 
     .intro {
-        font-size: 60px;
-        line-height: 68px;
+        font-size: 54px;
+        line-height: 64px;
         font-weight: 500;
         padding-bottom: 30px;
         margin: 0;
@@ -191,19 +188,19 @@ img {
 /*** TYPE ***/
 
 @font-face {
-    font-family: "Everett";
-    src:  url('font/TWKEverett-Regular-web.woff2') format('woff2'),
-          url('font/TWKEverett-Regular-web.woff') format('woff')
-          url("font/TWKEverett-Regular-web.ttf") format("truetype");
+    font-family: 'Everett';
+    src: url('font/TWKEverett-Regular-web.woff2') format('woff2'), /* Super Modern Browsers */
+         url('font/TWKEverett-Regular-web.woff') format('woff'), /* Pretty Modern Browsers */
+         url('font/TWKEverett-Regular-web.ttf')  format('truetype'); /* Safari, Android, iOS */
     font-weight: 400;
     font-style: normal;
-}
+  }
 
 @font-face {
-    font-family: "Everett";
-    src:  url('font/TWKEverett-Medium-web.woff2') format('woff2'),
-          url('font/TWKEverett-Medium-web.woff') format('woff')
-          url("font/TWKEverett-Medium-web.ttf") format("truetype");
+    font-family: 'Everett';
+    src: url('font/TWKEverett-Medium-web.woff2') format('woff2'), /* Super Modern Browsers */
+         url('font/TWKEverett-Medium-web.woff') format('woff'), /* Pretty Modern Browsers */
+         url('font/TWKEverett-Medium-web.ttf')  format('truetype'); /* Safari, Android, iOS */
     font-weight: 500;
     font-style: normal;
-}
+  }
