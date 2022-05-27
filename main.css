@@ -86,6 +86,18 @@ img {
     margin-bottom: 20px;
 }
 
+.meta {
+    font: normal 14px/18px 'Everett', sans-serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+    margin: 20px 0;
+    color: #626262;
+}
+
+.small {
+    color: #141414;
+}
+
 .intro {
     font: normal 30px/38px 'Everett', sans-serif;
     font-weight: 500;
@@ -98,18 +110,6 @@ img {
     font-weight: 400;
     margin-left: auto;
     order: 2;
-}
-
-.meta {
-    font: normal 14px/18px 'Everett', sans-serif;
-    font-weight: 400;
-    padding-bottom: 50px;
-    margin: 20px 0;
-    color: #626262;
-}
-
-.small {
-    color: #141414;
 }
 
 .last {
@@ -157,7 +157,6 @@ img {
         margin: 0;
         max-width: 900px;
     }
-
 
     .columns {
         display: flex;
