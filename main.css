@@ -117,10 +117,6 @@ img {
     margin-bottom: 50px;
 }
 
-.last-p {
-    padding-bottom: 30px;
-}
-
 .right {
     float: right;
     color: #141414;
@@ -151,6 +147,10 @@ img {
 
     img {
         margin-bottom: 50px;
+    }
+
+    .last-p {
+        padding-bottom: 30px;
     }
 
     .intro {
