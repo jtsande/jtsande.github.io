@@ -5,8 +5,8 @@ html {
 }
 
 body {
-    color: #141414;
     font: normal 16px/24px 'Everett', sans-serif;
+    color: #141414;
     padding: 0em;
     margin: 0em;
 }
@@ -20,6 +20,13 @@ header {
     display: flex;
     border-bottom: 1px solid #C9C9C9;
     padding: 40px 0 20px 0;
+    margin-bottom: 100px;
+}
+
+content {
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
 }
 
 footer {
@@ -51,7 +58,6 @@ h3 {
 }
 
 p {
-    font: normal 16px/24px 'Everett', sans-serif;
     margin: 0 0 20px 0;
     padding: 0;
 }
@@ -86,25 +92,6 @@ img {
     margin-bottom: 20px;
 }
 
-.meta {
-    font: normal 14px/18px 'Everett', sans-serif;
-    font-weight: 400;
-    padding-bottom: 50px;
-    margin: 20px 0;
-    color: #626262;
-}
-
-.test {
-    font: normal 14px/18px 'Everett', sans-serif;
-    font-weight: 400;
-    padding-bottom: 30px;
-    margin: 0;
-}
-
-.small {
-    color: #141414;
-}
-
 .intro {
     font: normal 30px/38px 'Everett', sans-serif;
     font-weight: 500;
@@ -112,8 +99,14 @@ img {
     margin: 0;
 }
 
+.shit {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: blue;
+}
+
 .info {
-    font: normal 16px/24px 'Everett', sans-serif;
     font-weight: 400;
     margin-left: auto;
     order: 2;
