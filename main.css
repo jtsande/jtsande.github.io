@@ -20,7 +20,7 @@ header {
     display: flex;
     border-bottom: 1px solid #C9C9C9;
     padding: 40px 0 20px 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 content {
@@ -99,13 +99,6 @@ img {
     margin: 0;
 }
 
-.shit {
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 500;
-    color: blue;
-}
-
 .info {
     font-weight: 400;
     margin-left: auto;
@@ -145,12 +138,12 @@ img {
         margin: 0 auto;
     }
 
-    img {
-        margin-bottom: 50px;
+    header {
+        margin-bottom: 100px;
     }
 
-    .last-p {
-        padding-bottom: 30px;
+    img {
+        margin-bottom: 50px;
     }
 
     .intro {
@@ -186,6 +179,10 @@ img {
 
     .profile {
         max-width: 80%;
+    }
+
+    .last-p {
+        padding-bottom: 30px;
     }
 }
 
