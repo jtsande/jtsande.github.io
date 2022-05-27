@@ -93,8 +93,8 @@ img {
 }
 
 .intro {
-    font: normal 30px/38px 'Everett', sans-serif;
-    font-weight: 500;
+    font: normal 34px/42px 'Everett', sans-serif;
+    font-weight: 400;
     padding-bottom: 30px;
     margin: 0;
 }
@@ -147,9 +147,7 @@ img {
     }
 
     .intro {
-        font-size: 54px;
-        line-height: 64px;
-        font-weight: 500;
+        font: normal 58px/70px 'Everett', sans-serif;
         padding-bottom: 30px;
         margin: 0;
         max-width: 900px;
