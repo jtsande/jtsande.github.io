@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
-  <g id="switch" transform="translate(-143 -104)">
-    <g id="ellipse" transform="translate(143 104)" fill="#fff" stroke="#000" stroke-width="2">
-      <circle cx="6" cy="6" r="6" stroke="none"/>
-      <circle cx="6" cy="6" r="5" fill="none"/>
-    </g>
-    <path id="cover" d="M-1504,12h0V0a6.007,6.007,0,0,1,6,6A6.007,6.007,0,0,1-1504,12Z" transform="translate(1653 104)"/>
-  </g>
-</svg>
