@@ -70,14 +70,13 @@ li {
     grid-gap: 10px;
 }
 
-.mail {
+.contact {
     
     display: block;
     text-align: center;
     border: 1px solid #606060;
     padding: 15px 20px;
     margin-bottom: 50px;
-    width: 100px;
 }
 
 /*** MQ ***/
