@@ -1,6 +1,7 @@
 html {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -12,13 +13,19 @@ body {
     line-height: 1.5em;
     padding: 0;
     margin: 50px 20px;
+    animation: fadein 1s ease both;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 #container {
     max-width: 900px;
 }
 
-h1, h2{
+h1, h2 {
     font-size: 1em;
     font-weight: 300;
     margin: 0 0 10px 0;
@@ -41,7 +48,7 @@ a, a:visited {
     border-bottom: 1px solid #999;
 }
 
-a:hover {
+a:hover, a:focus {
     border-bottom: none;
     color: #999;
 }
@@ -79,7 +86,7 @@ li {
 .cv {
     display: grid;
     grid-template-columns: 35% 30% auto;
-    grid-gap: 10px;
+    gap: 10px;
 }
 
 .contact {
@@ -101,15 +108,12 @@ li {
     .grid {
         display: grid;
         grid-template-columns: 25% auto;
-        grid-gap: 10px;
+        gap: 10px;
         padding: 0 0 50px 0;
     }
     .cv {
         display: grid;
         grid-template-columns: 30% 30% auto;
-        grid-gap: 10px;
-    }
-    .margin {
-        margin: 0 0 20px 0;
+        gap: 10px;
     }
 }
