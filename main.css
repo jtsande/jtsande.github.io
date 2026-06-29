@@ -68,6 +68,10 @@ li {
     padding: 0 0 30px 0;
 }
 
+.grid > * {
+    min-width: 0;
+}
+
 .grid.first {
     padding: 0 0 50px 0;
 }
