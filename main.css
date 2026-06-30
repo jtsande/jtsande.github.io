@@ -96,6 +96,22 @@ li {
     padding: 15px 20px;
     margin-bottom: 50px;
     width: 120px;
+    transition: border-color 0.2s ease;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    border: 1px solid #606060;
+    padding: 15px 20px;
+    margin-bottom: 50px;
+    width: 120px;
+    transition: border-color 0.2s ease;
+}
+
+.contact:hover, .contact:focus {
+    color: #fff;              /* hold teksten hvit (overstyrer a:hover #999) */
+    border-color: #999;       /* kanten lysner litt, men holder seg dempet */
 }
 
 /*** MQ ***/
