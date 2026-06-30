@@ -45,7 +45,6 @@ p {
 a, a:visited {
     color: #fff;
     text-decoration: none;
-    border-bottom: 1px solid #999;
 }
 
 a:hover, a:focus {
@@ -110,8 +109,8 @@ li {
 }
 
 .contact:hover, .contact:focus {
-    color: #fff;              /* hold teksten hvit (overstyrer a:hover #999) */
-    border-color: #999;       /* kanten lysner litt, men holder seg dempet */
+    color: #fff;
+    border: 1px solid #999;   /* hele border-en, så bunnkanten ikke faller bort */
 }
 
 /*** MQ ***/
